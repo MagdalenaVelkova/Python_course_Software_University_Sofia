@@ -1,0 +1,7 @@
+days=int(input())
+makers=int(input())
+torta=int(input())
+gofreta=int(input())
+pal=int(input())
+sum=(((torta*45+gofreta*5.8+pal*3.2)*makers*days)*7/8)
+print(sum)

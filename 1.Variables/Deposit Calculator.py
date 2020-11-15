@@ -1,0 +1,5 @@
+deposit=float(input())
+time=int(input())
+per=float(input())
+sum=deposit + time*((deposit * per/100)/12)
+print(sum)
